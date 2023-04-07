@@ -27,7 +27,6 @@ public class OrderController {
 
         PizzaOrder pizzaOrder = new PizzaOrder();
 
-        // Fix the getPizza method below in line 49.
         pizzaOrder.setPizza(getPizza(pizzaId));
 
         model.addAttribute("pizzaOrder", pizzaOrder);
